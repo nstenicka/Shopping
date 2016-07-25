@@ -1,0 +1,57 @@
+h1{
+	color: #4BEFCC;
+	font-family: Oswald;
+	font-size: 3rem;
+	text-align: center;
+}
+.blue-text{
+	color: #068AB1;
+	font-size: 3rem;
+}
+.header{
+	padding-bottom: 30px;
+	padding-top: 30px;
+	border: 1px #00BFDE;
+	background-image: url('../images/header1.jpeg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 30rem;
+}
+.icon{
+    display:block;
+    max-width: 100px;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 15px;
+}
+}
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.need{
+	font-family: Oswald;
+	font-size: 1rem;
+	display: block;
+	color: #132857;
+	list-style: none;
+	text-align: center;
+}
+.have{
+	font-family: Oswald;
+	font-size: 1rem;
+	display: block;
+	color: #132857;
+	list-style: none;
+	text-align: center;
+	text-decoration: line-through;
+}
+h2{
+	font-family: Oswald;
+	font-size: 2rem;
+	display: block;
+	color: #00BFDE;
+	list-style: none;
+	text-align: center;
+}
