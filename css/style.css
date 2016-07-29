@@ -19,7 +19,7 @@ h1{
 }
 .icon{
     display:block;
-    max-width: 100px;
+    max-width: 80px;
     margin: 0 auto;
     width: 90%;
     margin-top: 15px;
@@ -54,4 +54,19 @@ h2{
 	color: #00BFDE;
 	list-style: none;
 	text-align: center;
+}
+#add-items{
+	background-color: #4BEFCC;
+	border: none;
+	border-radius: 15px;
+	color: white;
+    display: inline-block;
+    font-size: 12pt;
+    height: 30px;
+    line-height: 24pt;
+    margin: 15px auto;
+    padding: 0 15px;
+    text-align: center;
+    width: 300px;
+    margin-left: 31rem;
 }
