@@ -26,8 +26,8 @@ h1{
 }
 }
 .content{
-	margin-left: auto;
-	margin-right: auto;
+	margin:0 auto;
+	min-width: 37.5rem;
 	width: 100%;
 }
 .need{
@@ -56,7 +56,32 @@ h2{
 	text-align: center;
 }
 #add-items{
+	border: none;
+	border-radius: 15px;
+	color: white;
 	background-color: #4BEFCC;
+    display: inline-block;
+    font-size: 12pt;
+    height: 30px;
+    line-height: 24pt;
+    padding: 0 15px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+p{
+	background-color: #068AB1;
+	width:300px;
+    border-radius: 15px;
+    color: #fff;
+    display: table;
+    font-size: 12pt;
+    height: 30px;
+    line-height: 24pt;
+    margin: 15px auto;
+    padding: 0 15px;
+}
+#list-area{
 	border: none;
 	border-radius: 15px;
 	color: white;

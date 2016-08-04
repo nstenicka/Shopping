@@ -1,19 +1,10 @@
-$(document).ready( function(){
-    function getItem() {
-        $('#add-items').keydown(function (enter) {
-            if (enter.keyCode == 13) {
-                console.log("enter key was pressed");
-                postItem();
-            }
-        });
-    });
-    getItem();
-
-    /*Takes returned value from previous function and manipulates it*/
-    function postItem() {
-        var item = $('#add-items').val();
-        var work = '<p class="full-width no-strikethrough">';
-        $('#list-area').prepend(work);
-        $('#add-items').val('');
-        $('#list-area p:first-child')
-    }
+// document ready before functions load                                                                                                              
+$(document).ready(function(){                                                                                                                                                                                                              
+    $('#add-items').keydown(function(event){                                                                                           
+        if(event.keyCode == 13) {                                                                                                              
+            var text = $('#add-items').val();                                                                                               
+            var work = '<p class="full-width no-strikethrough">' + text + '</p>';                                                                                                                  
+            $('#list-area').prepend(work);                                                                                                        
+        }                                                                                                                                         
+    });                                                                                                                                                                                                                                                                                         
+});
