@@ -8,11 +8,14 @@ $(document).ready(function(){
             // get value from input                                                                                                               
             var text = $('#add-items').val();                                                                                                     
             // create new item list for addition                                                                                                  
-            var work = '<ul class="full-width no-strikethrough">' + text + '</ul>';                                                                 
+            var work = '<li class="full-width no-strikethrough">' +'<label><input type="checkbox" class="target">'+ text + '</label></li>';                                                                 
             // add to the list                                                                                                                    
             $('#list-area').prepend(work); 
-			$('add-items').val('');                                                                                                        
+			$('#add-items').val('');                                                                                                        
         }                                                                                                                                         
     });                                                                                                                                           
-                                                                                                                                                  
+   		$(document).on("change","input:checkbox",function(){
+   			alert("list completed");
+   			console.log($(this).siblings("label"));
+   		});                                                                                                                                               
 });
