@@ -24,7 +24,6 @@ h1{
     width: 90%;
     margin-top: 15px;
 }
-}
 .content{
 	margin:0 auto;
 	min-width: 37.5rem;
@@ -47,6 +46,10 @@ h1{
 	text-align: center;
 	text-decoration: line-through;
 }
+#outer-area input {
+	display: block;
+	margin: 0 auto;
+}
 h2{
 	font-family: Oswald;
 	font-size: 2rem;
@@ -64,12 +67,11 @@ h2{
     font-size: 12pt;
     height: 30px;
     line-height: 24pt;
-    padding: 0 15px;
     text-align: center;
     width: 300px;
     margin: 0 auto;
 }
-p{
+ul{
 	background-color: #068AB1;
 	width:300px;
     border-radius: 15px;
@@ -85,13 +87,10 @@ p{
 	border: none;
 	border-radius: 15px;
 	color: white;
-    display: inline-block;
     font-size: 12pt;
     height: 30px;
     line-height: 24pt;
-    margin: 15px auto;
-    padding: 0 15px;
+    margin: 0 auto;
     text-align: center;
     width: 300px;
-    margin-left: 31rem;
 }
