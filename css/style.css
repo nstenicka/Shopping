@@ -68,12 +68,12 @@ h2{
     height: 30px;
     line-height: 24pt;
     text-align: center;
-    width: 300px;
+    width: 200px;
     margin: 0 auto;
 }
 ul{
 	background-color: #068AB1;
-	width:300px;
+	width:200px;
     border-radius: 15px;
     color: #fff;
     display: table;
